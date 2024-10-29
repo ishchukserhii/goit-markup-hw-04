@@ -297,6 +297,7 @@ background: #fff;
     align-items: center;
     align-content: center;
     gap: 24px;
+    justify-content: center;
 }
 .team-contact-list-li{
     width: 40px;
@@ -310,9 +311,15 @@ background: #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
 }
 
+.team-contact-link:hover{
+    background-color: #404bbf;
+}
+.team-contact-link:active{
+    background-color: #404bbf;
+}
 .iscon-soc{
     fill: #f4f4fd;
 }
