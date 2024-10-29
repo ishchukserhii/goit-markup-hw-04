@@ -29,6 +29,7 @@ a{
     text-decoration: none;
 }
 
+
 /* common */
 
 .container{
@@ -122,10 +123,36 @@ color: #434455;
 /* main */
 
 
+    /* background-image: url(../images/people-office\ 1-min.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; */
+
+
 .section-main{
 background-color: #2e2f42;
 padding: 188px 0;
+background-image:linear-gradient(
+	to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
+),
+    url(../images/people-office\ 1-min.jpg);
+background-size: cover;
+
 }
+.container-adv{
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+display: flex;
+justify-content: center;
+background-color: #f4f4fd;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+}
+
+
 .section-text {
 font-weight: 700;
 font-size: 56px;
@@ -160,6 +187,8 @@ border: none;
 background: #404bbf;
 }
 
+
+
 .section-advantages{
     padding: 120px 0;
 }
@@ -172,6 +201,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+padding-top: 8px;
 }
 
 .section-advantages-feature-text {
@@ -244,6 +274,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+padding-bottom: 8px;
 }
 
 .team-list {
@@ -257,8 +288,20 @@ background: #fff;
     padding: 32px 0;
 }
 
+.team-contact-container{
+    display: flex;
+    align-content: center;
+}
 
-
+.team-contact{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
 
 .portfolio{
     padding: 120px 0;
