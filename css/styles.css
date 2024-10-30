@@ -168,12 +168,14 @@ background-position: center;
 .container-adv{
     padding-top: 24px;
     padding-bottom: 24px;
-
+align-items: center;
 display: flex;
 justify-content: center;
 background-color: #f4f4fd;
 border: 1px solid #8e8f99;
 border-radius: 4px;
+height: 112px;
+margin-bottom: 8px;
 }
 
 
@@ -226,7 +228,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
-padding-top: 8px;
 }
 
 .section-advantages-feature-text {
