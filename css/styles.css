@@ -341,8 +341,8 @@ background: #fff;
 background-color: #404bbf;
 }
 
-.team-contact-link:active{
-    background-color: #404bbf;
+.team-contact-link:focus{
+background-color: #404bbf;
 }
 
 
@@ -398,18 +398,52 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.porfolio-list{
+.portfolio-list{
 background: #fff;
 gap: calc((100% - 3 * 24px) / 4);
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+position: relative;
 }
 
-.porfolio-list:hover{
+.portfolio-list:hover{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
+.flex-el{
+    position: relative;
+    overflow: hidden;
+}
+
+.p-flex-el{
+    position: absolute;
+    background-color:#4d5ae5;
+    color: #f4f4fd;
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 300ms ease;
+} 
+
+.portfolio-list:hover .p-flex-el{
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
 
 .footer{
     background: #2e2f42;
