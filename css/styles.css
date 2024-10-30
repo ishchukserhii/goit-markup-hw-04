@@ -449,11 +449,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .footer{
     background: #2e2f42;
     padding: 100px 0;
-    display: flex;
-    justify-content: flex-start;
     
 }
-
+.container-footer{
+    display: flex;
+    align-items: baseline;
+}
 .footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -486,7 +487,7 @@ color: #fff;
 padding-bottom: 16px;
 }
 .foter-first-container{
-    margin-left: 0;
+    margin-right: 120px;
 }
 
 soc-link-footer:hover{
