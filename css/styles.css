@@ -399,8 +399,7 @@ color: #434455;
 background: #fff;
 gap: calc((100% - 3 * 24px) / 4);
 border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
+
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: relative;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
